@@ -1,0 +1,7 @@
+POST http://localhost:3000
+   
+   {
+        "first_name": "Chad",
+    "last_name": "Teacy",
+    "email": "cteacy1@weibo.com"
+   }
