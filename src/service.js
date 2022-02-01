@@ -37,10 +37,6 @@ module.exports = {
     },
 
     deleteUser: (id)=>{
-        // let identificador = Number(id)
-        // let newData = data.filter((data) => data.id !== identificador)
-        
-        // return newData
         let identificador  = Number(id);
         let user = data.filter( (person) => person.id === identificador)[0];
         if (user == undefined) {
